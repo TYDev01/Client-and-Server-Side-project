@@ -1,0 +1,7 @@
+.navbarComponents{
+    background: #143d48;
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
