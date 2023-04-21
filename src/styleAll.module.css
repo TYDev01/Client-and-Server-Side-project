@@ -11,12 +11,12 @@
 }
 
 .navLogo a{
-    color: #fff;
+    color: #df6b0b;
     font-weight: 900;
     font-size: 4.5rem;
     font-family: 'Rouge Script', cursive;
     /* -webkit-text-stroke: 1px #ffffff; */
-    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+    text-shadow: -1px -1px 0 #df6b0b, 1px -1px 0 #df6b0b, -1px 1px 0 #df6b0b, 1px 1px 0 #df6b0b;
 }
 
 .navLinks a{
@@ -24,4 +24,34 @@
     margin: 3rem;
     flex-direction: row;
     font-size: 1.5rem;
+}
+
+/* HERO SECTION */
+.hero{
+    padding: 3rem 8rem;
+    display: flex;
+    align-items: center;
+}
+
+.heroText h2{
+    font-size: 3.4rem;
+    letter-spacing: 2.5px;
+    line-height: 4rem;
+}
+
+.heroText h2 span{
+    color: #df6b0b;
+}
+.heroText p{
+    font-family: 'Alexandria', sans-serif;
+    letter-spacing: 1.3px;
+    margin: -2rem 0 2rem;
+}
+.heroText a{
+    background: #df6b0b;
+    padding: 15px;
+    margin-top: 5rem;
+}
+.heroText a:hover{
+    color:#bcbcbc
 }

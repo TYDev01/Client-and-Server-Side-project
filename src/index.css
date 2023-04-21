@@ -18,9 +18,10 @@ a {
   font-weight: 300;
   color: #fff;
   text-decoration: none;
+  transition: 0.3s all;
 }
 a:hover {
-  color: #0b2f39;
+  color: #206f85;
 }
 
 body {
@@ -35,10 +36,6 @@ body {
   /* min-height: 100vh; */
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
 
 button {
   border-radius: 8px;
@@ -65,7 +62,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #256b7e;
+    color: #2b7b92;
   }
   button {
     background-color: #f9f9f9;
