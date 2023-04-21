@@ -6,7 +6,7 @@ import styles from '../styleAll.module.css'
 export const Navbar = () => {
   return (
    <div className={styles.navbarComponents}>
-      <div>
+      <div className={styles.navLogo}>
         <Link to="/">Home</Link>
       </div>
       <div>

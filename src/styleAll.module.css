@@ -3,5 +3,12 @@
     color: #ffffff;
     margin: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 3rem 8rem;
+}
+
+.navLogo a{
+    color: #a12f35;
+    font-weight: 800;
+    font-size: 2rem;
 }
