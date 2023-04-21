@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styleAll.module.css'
 import { Link } from 'react-router-dom'
+import { Svg } from '../components/Svg'
 
 export const Home = () => {
   return (
@@ -11,7 +12,7 @@ export const Home = () => {
             <Link to="/Signup">Create free Account</Link>
         </div>
         <div>
-            <p>motion</p>
+            <Svg />
         </div>
     </div>
   )
